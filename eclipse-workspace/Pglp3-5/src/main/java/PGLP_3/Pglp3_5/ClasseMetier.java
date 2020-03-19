@@ -1,7 +1,9 @@
 package PGLP_3.Pglp3_5;
 
-public class ClasseMetier {
+public class ClasseMetier extends Affichage {
 	Affiche a;
-	public void 
+	public void UneMethodeMetier() {
+		Affich("Debut dune methode metier");
+	}
 
 }
